@@ -1,0 +1,27 @@
+# Terraform
+*.tfstate
+*.tfstate.*
+*.tfplan
+*.tfvars
+crash.log
+override.tf
+terraform.tfvars
+.terraform/
+
+# Ansible
+*.retry
+ansible/inventories/*.retry
+ansible/ansible.log
+
+# Outputs
+outputs/*.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
